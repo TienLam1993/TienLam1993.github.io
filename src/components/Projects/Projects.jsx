@@ -27,6 +27,7 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
+          <p style={{textAlign: 'center', paddingBottom:'20px', fontStyle: 'italic'}}> All the following apps do not require email verification so feel free to create an account and test!</p>
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
